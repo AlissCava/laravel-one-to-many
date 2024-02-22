@@ -2,7 +2,5 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+Route::get('/users', 'UserController@index');
 
-    return view('pages.index');
-});
